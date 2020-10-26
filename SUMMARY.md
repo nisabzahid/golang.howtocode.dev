@@ -14,5 +14,6 @@
 * [ম্যাপস](maps.md)
 * [রেঞ্জ](range.md)
 * [ফাংশন](function.md)
+* [Struct](struct.md)
 * [চলবে ...](....md)
 
