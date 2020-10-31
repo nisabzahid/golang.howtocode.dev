@@ -14,6 +14,6 @@
 * [ম্যাপস](maps.md)
 * [রেঞ্জ](range.md)
 * [ফাংশন](function.md)
-* [Struct](struct.md)
+* [স্ট্রাক্ট ](struct.md)
 * [চলবে ...](....md)
 
