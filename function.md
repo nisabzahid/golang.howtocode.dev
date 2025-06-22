@@ -45,3 +45,16 @@ func add(x, y int) (sum int) {
 }
 ```
 
+একটা ফাংশন মাল্টিপল ডাটা রিটার্ন করলে সেগুলোকে মাল্টিপল ভেরিয়েবল এ রাখা যায়। যেমন `divide` ফাংশনটি এভাবে লিখা যায়:
+
+```go
+func divide(a, b int) (int, error) {
+	if b == 0 {
+		return 0, errors.New("division by zero is not allowed")
+	}
+	return a / b, nil // nil indicates no error
+}
+
+result, err := divide(10, 2)
+```
+এখানে রেজাল্ট আর এরর দুই ভেরিয়েবল এ ফাঙ্কশন এর রেসালট আর এরর ডাটা রাখা যায়। 
